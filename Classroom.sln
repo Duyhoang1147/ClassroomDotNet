@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5457DA9E-38BF-4EEF-8D1E-C95A479A82AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classroom.UI", "src\Classroom.UI\Classroom.UI.csproj", "{CD7D91B5-9680-40A8-B0DB-45F08115F1D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classroom.Api", "src\Classroom.Api\Classroom.Api.csproj", "{5EE697C3-87A0-4FBC-A2FF-4D4BA27A2562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD7D91B5-9680-40A8-B0DB-45F08115F1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD7D91B5-9680-40A8-B0DB-45F08115F1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD7D91B5-9680-40A8-B0DB-45F08115F1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD7D91B5-9680-40A8-B0DB-45F08115F1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE697C3-87A0-4FBC-A2FF-4D4BA27A2562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE697C3-87A0-4FBC-A2FF-4D4BA27A2562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE697C3-87A0-4FBC-A2FF-4D4BA27A2562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE697C3-87A0-4FBC-A2FF-4D4BA27A2562}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD7D91B5-9680-40A8-B0DB-45F08115F1D6} = {5457DA9E-38BF-4EEF-8D1E-C95A479A82AB}
+		{5EE697C3-87A0-4FBC-A2FF-4D4BA27A2562} = {5457DA9E-38BF-4EEF-8D1E-C95A479A82AB}
+	EndGlobalSection
+EndGlobal
