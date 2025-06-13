@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classroom.UI", "src\Classro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classroom.Api", "src\Classroom.Api\Classroom.Api.csproj", "{5EE697C3-87A0-4FBC-A2FF-4D4BA27A2562}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classroom.Identity", "src\Classroom.Identity\Classroom.Identity.csproj", "{8623450A-0C0F-4B6D-A768-6FA986C93901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classroom.Model", "src\Classroom.Model\Classroom.Model.csproj", "{007FE388-69E8-493E-9523-2361BF509FC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +30,19 @@ Global
 		{5EE697C3-87A0-4FBC-A2FF-4D4BA27A2562}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EE697C3-87A0-4FBC-A2FF-4D4BA27A2562}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EE697C3-87A0-4FBC-A2FF-4D4BA27A2562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8623450A-0C0F-4B6D-A768-6FA986C93901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8623450A-0C0F-4B6D-A768-6FA986C93901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8623450A-0C0F-4B6D-A768-6FA986C93901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8623450A-0C0F-4B6D-A768-6FA986C93901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007FE388-69E8-493E-9523-2361BF509FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007FE388-69E8-493E-9523-2361BF509FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007FE388-69E8-493E-9523-2361BF509FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007FE388-69E8-493E-9523-2361BF509FC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CD7D91B5-9680-40A8-B0DB-45F08115F1D6} = {5457DA9E-38BF-4EEF-8D1E-C95A479A82AB}
 		{5EE697C3-87A0-4FBC-A2FF-4D4BA27A2562} = {5457DA9E-38BF-4EEF-8D1E-C95A479A82AB}
+		{8623450A-0C0F-4B6D-A768-6FA986C93901} = {5457DA9E-38BF-4EEF-8D1E-C95A479A82AB}
+		{007FE388-69E8-493E-9523-2361BF509FC2} = {5457DA9E-38BF-4EEF-8D1E-C95A479A82AB}
 	EndGlobalSection
 EndGlobal
